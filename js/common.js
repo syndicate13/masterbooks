@@ -32,8 +32,13 @@ $( document).ready(function(  ) {
         $(this).toggleClass('active');
     });
 
-
-
+    //
+    $('#about').readmore({ //вызов плагина
+        speed: 350, //скорость анимации показать скрыть текст
+        collapsedHeight: 670, //высота блока краткого текста в px
+        moreLink: '<div class="more-c"><a class="more-3" href="#"><span>Читать далее</span></a></div>', //Ссылка на раскрытие блока
+        lessLink: '<div class="more-c more-c--no-bg"><a  class="more-3" href="#"><span>Скрыть</span></a></div>' //Ссылка на скрытие блока
+    });
 
     //Маска телефона
     $(".phone_input").inputmask("+7 (999) 999 - 99 - 99");

@@ -188,7 +188,12 @@
     margin-bottom: 35px;
     font-size: 32px; }
   .form-c-page {
-    width: 100%; } }
+    width: 100%; }
+  .project-screen__text {
+    max-width: 740px; }
+  .project-screen__text .h1 {
+    font-size: 36px;
+    line-height: inherit; } }
 
 @media screen and (max-width: 768px) {
   .container {
@@ -332,7 +337,25 @@
   .form-c-page {
     margin-bottom: 50px; }
   .title-24 {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .command-c__item__header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column; }
+  .command-c__item__header_left {
+    width: 100%;
+    margin-bottom: 20px; }
+  .list-circle li {
+    font-size: 14px;
+    line-height: initial;
+    margin-bottom: 10px; }
+  .project-inner-command-list .command-c__item__header_left {
+    width: 100%; }
+  .project-screen__text .h1 {
+    padding-left: 15px;
+    padding-right: 15px; } }
 
 @media screen and (max-width: 550px) {
   .our-project__item {
@@ -435,4 +458,46 @@
     padding-bottom: 30px;
     margin-top: 0; }
     .form-c-page .form-row--btn {
-      padding-top: 5px; } }
+      padding-top: 5px; }
+  .command-c__item__header_left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column; }
+  .command-c__item__avatar {
+    margin-right: 0;
+    margin-bottom: 20px; }
+  .command-c__item__network {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
+    .command-c__item__network a {
+      margin-right: 5px;
+      margin-left: 5px;
+      margin-bottom: 10px; }
+  .command-c__item__content .list-circle {
+    margin-left: 0; }
+  .project-screen__text .h1 {
+    font-size: 24px;
+    text-align: center; }
+  .project-screen__btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
